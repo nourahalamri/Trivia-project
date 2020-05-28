@@ -181,7 +181,7 @@ Returns:
 }
 
 
-GET '/categories/<int:category_id>/questions'
+GET '/categories/4/questions'
 Create a GET endpoint to get questions based on category
 {
       "answer": "Muhammad Ali", 
@@ -191,7 +191,7 @@ Create a GET endpoint to get questions based on category
       "question": "What boxer's original name is Cassius Clay?"
     }, 
 
- DELETE '/questions/<question_id>'
+ DELETE '/questions/28'
 {
   "deleted": "28", 
   "success": true
